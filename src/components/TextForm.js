@@ -33,10 +33,10 @@ export default function TextForm(props) {
             <div className="mb-3">
                 <textarea className="form-control" value={text} onChange={handleOnChange} id="myBox" rows="3" placeholder='Enter text here'></textarea>
             </div>
-            <button className={`btn btn-${color} mx-2`} onClick={handleUpperCase}>Convert to UpperCase</button>
-            <button className={`btn btn-${color} mx-2`} onClick={handleLowerCase}>Convert to LowerCase</button>
-            <button className={`btn btn-${color} mx-2`} onClick={handleClearText}>Clear Text</button>
-            <button className={`btn btn-${color} mx-2`} onClick={handleCopyText}>Copy Text</button>
+            <button className={`btn btn-${color} my-2 mx-2`} onClick={handleUpperCase}>Convert to UpperCase</button>
+            <button className={`btn btn-${color} my-2 mx-2`} onClick={handleLowerCase}>Convert to LowerCase</button>
+            <button className={`btn btn-${color} my-2 mx-2`} onClick={handleClearText}>Clear Text</button>
+            <button className={`btn btn-${color} my-2 mx-2`} onClick={handleCopyText}>Copy Text</button>
             <div className="container my-3">
                 <h2><u>Text Description</u></h2>
                 <p>Text contains :
